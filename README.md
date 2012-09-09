@@ -21,8 +21,8 @@ Functions
 This function is used to calculate the age of an item relative to another time. See `humanize` for a full example list
 
 	$this->load->spark('time/1.0.0');
-	$this->time->Age(strtotime('2011-01-01', '2011-01-02')) // Reutns '1 day'
-	$this->time->Age(strtotime('2011-01-01 22:00', '2011-01-02 23:00')) // Reutns '1 day, 1 hour'
+	$this->time->Age(strtotime('2011-01-01'), strtotime('2011-01-02')) // Reutns '1 day'
+	$this->time->Age(strtotime('2011-01-01 22:00'), strtotime('2011-01-02 23:00')) // Reutns '1 day, 1 hour'
 
 
 `epocdate` - Return the time at midnight of an epoc
@@ -67,6 +67,7 @@ A vareity of options can be specified including how many time scales should be s
 
 `shorthand` - Return the number of seconds from a human readable time shorthand
 -------------------------------------------------------------------------------
+This function returns the number of seconds determined from a shorthand time string.
 
 	$this->load->spark('time/1.0.0');
 
