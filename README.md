@@ -13,6 +13,12 @@ Download this repo and copy into your application directory.
 Alternatively, install with [Sparks](http://getsparks.org/)
 
 
+WARNING
+=======
+This project has now been superseeded by the Composer based [Time](https://github.com/hash-bang/Time) package. Please update your project to use that repository instead.
+
+
+
 Functions
 =========
 
